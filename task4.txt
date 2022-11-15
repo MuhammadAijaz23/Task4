@@ -1,0 +1,19 @@
+import java.util.*;
+public class task4{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the marks Matric: ");
+        int matric =sc.nextInt();
+        System.out.print("Enter the marks Inter: ");
+        int inter =sc.nextInt();
+        System.out.print("Enter the test score: ");
+        int test=sc.nextInt();
+        double 10thMarks =  (10th/850.0)*100;
+        double total10thcMarks=10thMarks*0.1;
+        double 12thMarks = (10th/1100.0)*100;
+        double totalMarks12th = interMarks*0.2;
+        double testMarks = test*0.7;
+        double p = totalMarks12th+total10thMarks+testMarks;
+        System.out.println("Total percentage: "+p);
+    }
+}
